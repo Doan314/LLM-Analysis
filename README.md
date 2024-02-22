@@ -53,7 +53,7 @@ Then save the database name under any name of your choice and press connect.
 - Select LLM kernel
 
 **STEP 4 : Speeding Up Inference Using a [GPU](https://python.langchain.com/docs/integrations/llms/llamacpp)**
-Modified two of parameters from the [a relative link](core.py) file:
+Modified two of parameters from the [core.py](https://github.com/Doan314/LLM-Analysis/blob/main/Library/Onprem/core.py) file:
 - n_gpu_layers → how many layers of the model are downloaded to the GPU, optimal choice is `int = 24`
 - n_batch → how many tokens are processed in parallel, optimal choice is `int = 800`
 
@@ -75,7 +75,7 @@ From langchain\chains\retrieval_qa\base.py, _call() function:
 - Create New Notebook (Run.ipynb file) inside Jupyter
 
   So as to be able to insert executable code and to visualize the output generated from the execution of such code.
-- For responses to be generated from the content of our document, it is important to create an instance of the LLM class, defined in the Onprem [a relative link](core.py) file
+- For responses to be generated from the content of our document, it is important to create an instance of the LLM class, defined in the Onprem [core.py](https://github.com/Doan314/LLM-Analysis/blob/main/Library/Onprem/core.py) file
   ```
   llm = LLM() 
   ```
