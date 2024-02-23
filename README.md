@@ -95,6 +95,7 @@ From langchain\chains\retrieval_qa\base.py, _call() function:
   ```
 > [!NOTE]  
 > The LLM template processes requests in parallel and therefore the order in which the answers are provided could correspond to the original order of the items.
+>
 > Step 5 and 6 can be inverted
 
 **STEP 7: Save result in a json file**
